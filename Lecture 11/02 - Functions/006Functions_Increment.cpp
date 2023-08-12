@@ -2,9 +2,26 @@
 
 using namespace std;
 
+void incr(int a) {
+
+	cout << "inside incr() : before ++ a = " << a << endl;
+
+	a++;
+
+	cout << "inside incr() : after ++ a = " << a << endl;
+
+}
+
 int main() {
 
-	// todo ...
+	int a = 10;
+
+	cout << "inside main() : before incr() a = " << a << endl;
+
+	incr(a);
+
+	cout << "inside main() : after incr() a = " << a << endl;
+
 
 	return 0;
 }

@@ -2,9 +2,18 @@
 
 using namespace std;
 
+
+void incr(int& a) {
+	a++;
+}
+
 int main() {
 
-	// todo ...
-	
+	int a = 10;
+
+	incr(a);
+
+	cout << a << endl;
+
 	return 0;
 }
