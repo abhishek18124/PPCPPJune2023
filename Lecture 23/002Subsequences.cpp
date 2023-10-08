@@ -49,7 +49,9 @@ void f(char* inp, char* out, int i, int j) {
 	// 1. include inp[i] in out[]
 
 	out[j] = inp[i];
+	// j++;
 	f(inp, out, i + 1, j + 1);
+	// j--; // backtracking
 
 	// 2. exclude inp[i] from out[]
 	f(inp, out, i + 1, j);
