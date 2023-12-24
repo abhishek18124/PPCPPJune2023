@@ -20,6 +20,8 @@ bool isPalindrome(string s) {
 	return true;
 }
 
+// time : O(n^3)
+
 int helperBottomUp(string str, int n) {
 
 	vector<int> dp(n + 1);
