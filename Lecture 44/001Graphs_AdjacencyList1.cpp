@@ -66,7 +66,7 @@ int main() {
 
 	g.print();
 
-	// vector<vector<int>> vg(n);
+	vector<vector<int>> vg(n);
 
 	// for (int i = 0; i < e; i++) {
 	// 	int u, v; // 2, 3
